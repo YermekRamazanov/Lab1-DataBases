@@ -1,15 +1,7 @@
 --Exercise 1
---The difference between DDL and DML is that DDL is used to define the schema or
---the structure of database which means it is used to create the table(relation)
---and the DML is used to access, or modify the schema or table created by DDL.
---
---a)
---DDL commands:CREATE,ALTER,DROP
---
---b)
---DML commands:SELECT,INSERT,UPDATE,DELETE
-
-
+--The difference is that DDL is used to define the structure of database or the schema which means it is used to create the table(relation) and the DML is used to access, or modify the schema or table created by DDL
+--a) DDL commands:CREATE,ALTER,DROP
+--b) DML commands:SELECT,INSERT,UPDATE,DELETE
 --Exercise 2
 CREATE TABLE order_items(
     order_code integer NOT NULL UNIQUE REFERENCES orders (code),
