@@ -1,4 +1,4 @@
--Exercise 1
+-1st exercise 
 -a)
 SELECT course_id,title
 FROM course
@@ -40,7 +40,7 @@ FROM course,prereq
 WHERE course.course_id=prereq.course_id AND prereq_id='CS-101';
 
 
--Exercise 2
+-2nd exercise
 -a)
 SELECT dept_name,avg(salary) AS average_salary_of_department
 FROM instructor
@@ -80,7 +80,7 @@ WHERE instructor.id=teaches.id AND teaches.year='2018' AND instructor.id NOT IN
 WHERE instructor.id=teaches.id AND teaches.year='2017');
 
 
--Exercise 3
+-3rd exercise
 -a)
 SELECT DISTINCT student.id,student.name
 FROM takes,student
